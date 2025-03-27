@@ -27,3 +27,4 @@ c:\Users\nl1101043\Desktop\Capstone\InFlow\InFlow\obj\Debug\net8.0\refint\InFlow
 c:\Users\nl1101043\Desktop\Capstone\InFlow\InFlow\obj\Debug\net8.0\InFlow.pdb
 c:\Users\nl1101043\Desktop\Capstone\InFlow\InFlow\obj\Debug\net8.0\InFlow.genruntimeconfig.cache
 c:\Users\nl1101043\Desktop\Capstone\InFlow\InFlow\obj\Debug\net8.0\ref\InFlow.dll
+c:\Users\nl1101043\Desktop\Capstone\InFlow\InFlow\obj\Debug\net8.0\InFlow.sourcelink.json

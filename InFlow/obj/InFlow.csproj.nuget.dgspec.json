@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj": {}
+    "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj": {
+    "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj",
+        "projectUniqueName": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj",
         "projectName": "InFlow",
-        "projectPath": "C:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj",
+        "projectPath": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\InFlow.csproj",
         "packagesPath": "C:\\Users\\nl1101043\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\obj\\",
+        "outputPath": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
