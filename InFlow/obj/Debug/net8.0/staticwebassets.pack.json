@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InFlow.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InFlow.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\nl1101043\\Desktop\\Capstone\\InFlow\\InFlow\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InFlow.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InFlow.props",
+      "PackagePath": "build\\InFlow.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InFlow.props",
+      "PackagePath": "buildMultiTargeting\\InFlow.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InFlow.props",
+      "PackagePath": "buildTransitive\\InFlow.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

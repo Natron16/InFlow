@@ -1,0 +1,136 @@
+/* _content/InFlow/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-l54rzjepwn] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-l54rzjepwn] {
+    flex: 1;
+}
+
+.sidebar[b-l54rzjepwn] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-l54rzjepwn] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-l54rzjepwn]  a, .top-row[b-l54rzjepwn]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-l54rzjepwn]  a:hover, .top-row[b-l54rzjepwn]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-l54rzjepwn]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-l54rzjepwn] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-l54rzjepwn]  a, .top-row[b-l54rzjepwn]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-l54rzjepwn] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-l54rzjepwn] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-l54rzjepwn] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-l54rzjepwn]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-l54rzjepwn], article[b-l54rzjepwn] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui[b-l54rzjepwn] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-l54rzjepwn] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* _content/InFlow/Components/Layout/NavMenu.razor.rz.scp.css */
+/* Ensure the navbar spans the top */
+.top-navbar[b-pawnyme3n5] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; /* Blue background */
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Spread out the navigation items */
+.nav-horizontal[b-pawnyme3n5] {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Spread items evenly */
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* Nav items */
+.nav-link[b-pawnyme3n5] {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover[b-pawnyme3n5] {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Ensure content does not hide under navbar */
+body[b-pawnyme3n5] {
+    padding-top: 60px;
+}

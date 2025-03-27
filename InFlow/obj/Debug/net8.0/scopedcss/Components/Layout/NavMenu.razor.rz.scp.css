@@ -1,0 +1,38 @@
+/* Ensure the navbar spans the top */
+.top-navbar[b-pawnyme3n5] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; /* Blue background */
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Spread out the navigation items */
+.nav-horizontal[b-pawnyme3n5] {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Spread items evenly */
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* Nav items */
+.nav-link[b-pawnyme3n5] {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover[b-pawnyme3n5] {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Ensure content does not hide under navbar */
+body[b-pawnyme3n5] {
+    padding-top: 60px;
+}
